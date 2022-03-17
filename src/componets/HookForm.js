@@ -1,12 +1,6 @@
 import React, {useState} from 'react';
 
-// function validateForm() {
-//     let x = document.forms["myForm"]["fname"].value;
-//     if (x == "") {
-//       alert("Name must be filled out");
-//       return false;
-//     }
-//   }
+
 
 const HookForm = props => {
     const [firstName, setFirstname] = useState("");
